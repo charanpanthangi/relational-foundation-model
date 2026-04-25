@@ -1,0 +1,15 @@
+torch
+torch-geometric
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pandas
+polars
+pyyaml
+pydantic
+scikit-learn
+numpy
+duckdb
+pytest
+mlflow
