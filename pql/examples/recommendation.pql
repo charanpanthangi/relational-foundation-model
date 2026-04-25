@@ -1,0 +1,3 @@
+PREDICT customer.product_affinity
+FOR customer
+AS OF snapshot_time

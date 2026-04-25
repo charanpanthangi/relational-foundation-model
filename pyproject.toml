@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relational-foundation-model"
+version = "0.1.0"
+description = "KumoRFM-inspired relational foundation model for predictive tasks"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "RFM Team"}]
+dependencies = [
+  "torch",
+  "torch-geometric",
+  "fastapi",
+  "uvicorn",
+  "sqlalchemy",
+  "psycopg2-binary",
+  "pandas",
+  "polars",
+  "pyyaml",
+  "pydantic",
+  "scikit-learn",
+  "numpy",
+  "duckdb",
+  "mlflow"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"

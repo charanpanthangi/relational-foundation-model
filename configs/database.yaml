@@ -1,0 +1,6 @@
+default_connector: parquet
+connectors:
+  postgres:
+    uri: ${DATABASE_URL}
+  parquet:
+    directory: ./sample_data

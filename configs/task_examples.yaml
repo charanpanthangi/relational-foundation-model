@@ -1,0 +1,11 @@
+tasks:
+  churn: |
+    PREDICT customer.churn
+    FOR customer
+    AS OF snapshot_time
+  fraud: |
+    PREDICT order.fraud
+    FOR orders
+  recommendation: |
+    PREDICT customer.product_affinity
+    FOR customer

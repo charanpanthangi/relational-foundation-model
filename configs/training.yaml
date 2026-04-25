@@ -1,0 +1,7 @@
+seed: 42
+device: cpu
+epochs: 5
+learning_rate: 0.001
+weight_decay: 0.0001
+batch_size: 128
+target_column: label

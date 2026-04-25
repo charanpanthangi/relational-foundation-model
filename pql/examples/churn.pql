@@ -1,0 +1,3 @@
+PREDICT customer.churn
+FOR customer
+AS OF snapshot_time

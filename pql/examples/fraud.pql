@@ -1,0 +1,3 @@
+PREDICT order.fraud
+FOR orders
+AS OF created_at
